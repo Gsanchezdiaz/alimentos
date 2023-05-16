@@ -1,0 +1,16 @@
+.menu__item {
+    list-style: none;
+    
+}
+
+@media screen and (min-width:0) {
+    .menu__item {
+        margin: 0 1rem;
+    }
+}
+@media screen and (min-width:768px) {
+    .menu__item {
+        margin: 0;
+        margin-left: 1.25rem;
+    }
+}

@@ -1,0 +1,18 @@
+.personas {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 3em 0;
+}
+
+@media screen and (min-width:0) {
+    .personas {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .personas {
+        flex-wrap: nowrap;
+    }
+}
